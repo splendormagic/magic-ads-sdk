@@ -7,7 +7,8 @@
         android:id="@+id/native_ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:background="@drawable/gnt_ad_button">
 
         <LinearLayout
             android:id="@+id/background"
@@ -54,7 +55,7 @@
                             android:layout_marginBottom="6dp"
                             android:background="@drawable/gnt_ad_icon"
                             android:gravity="center"
-                            android:text="Ad+"
+                            android:text="Ad"
                             android:textColor="@color/gnt_white"
                             android:textSize="@dimen/gnt_ad_indicator_text_size"
                             android:textStyle="bold" />
