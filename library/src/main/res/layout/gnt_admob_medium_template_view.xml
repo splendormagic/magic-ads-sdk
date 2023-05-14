@@ -7,8 +7,7 @@
         android:id="@+id/native_ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="@drawable/gnt_ad_button">
+        android:layout_centerInParent="true">
 
         <LinearLayout
             android:id="@+id/background"
@@ -49,10 +48,7 @@
                             android:id="@+id/ad_notification_view"
                             android:layout_width="@dimen/gnt_ad_indicator_width"
                             android:layout_height="@dimen/gnt_ad_indicator_height"
-                            android:layout_marginStart="6dp"
-                            android:layout_marginTop="6dp"
-                            android:layout_marginEnd="6dp"
-                            android:layout_marginBottom="6dp"
+                            android:layout_margin="6dp"
                             android:background="@drawable/gnt_ad_icon"
                             android:gravity="center"
                             android:text="Ad"
